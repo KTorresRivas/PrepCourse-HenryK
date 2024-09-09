@@ -1,0 +1,10 @@
+console.log(1 + 100);
+console.log(6 / 2);
+console.log(5  - 5);
+console.log(95 % 4);
+console.log((3 + 5)* 2 - 8);
+console.log("HOLA " + "KELLY");
+var nombre = "KELLY";
+var saludo = "HOLA " + nombre;
+console.log(saludo);
+console.log(100 % 45);
