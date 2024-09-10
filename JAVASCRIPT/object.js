@@ -56,3 +56,15 @@ var mascota = {
       console.log('Mi perro es un  ' + this.raza);
    },
 };
+
+function foo(objeto) {
+    var suma = 0;
+    for (var key in objeto) {
+        suma += objeto[key];
+    }
+
+    return suma;
+}
+
+var resultado = foo({a: 1, b: 2, c: 3});
+console.log(resultado);

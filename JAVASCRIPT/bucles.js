@@ -29,3 +29,9 @@ while (arr.length < 5) {
    arr.push('Kelly');
 }
 console.log(arr);
+
+for (var i = 0; i <= 5; i++) {
+    if (i % 2 === 0) {
+        console.log(i);
+    }
+}

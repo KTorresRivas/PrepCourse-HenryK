@@ -45,3 +45,7 @@ var masUno = numeros.map((num) => {
     return num + 1;
 });
 console.log(masUno);
+
+var arr = [1, 2, 3];
+delete arr[1];
+console.log(arr[1]);
