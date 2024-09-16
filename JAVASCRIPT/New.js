@@ -40,3 +40,25 @@ for (let i = 0; i < numeros.length; i++) {
     console.log(`Índice ${i}: ${numeros[i]}`);
 }
 
+// Objeto
+let persona = {
+    nombre: 'Kelly',
+    edad: 19,
+    saludar: function() {
+        return `Hola, soy ${this.nombre} y tengo ${this.edad} años.`;
+    }
+};
+
+let gatos = {
+    nombre: "Lilly",
+    raza: "Tabby",
+    Nombrar: function () {
+        return `La gata ${this.nombre} es de raza ${this.raza}.`;
+    }
+};
+
+// Uso del objeto y su método
+console.log(persona.saludar());
+
+console.log(gatos.Nombrar());
+

@@ -20,4 +20,4 @@ if(edad >= 18) {
 }
 }
 
-puedeManjear("17");
+puedeManjear(17);

@@ -57,6 +57,7 @@ var mascota = {
    },
 };
 
+
 function foo(objeto) {
     var suma = 0;
     for (var key in objeto) {
